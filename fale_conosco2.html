@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+
+    <link rel="ico" type="image/x-icon" href="img/logo1.ico">
+
+    <!--Utilizei bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="js/popper.min.js">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+
+       
+    <!--Criando o topo do site-->
+    <header class="topo container-fluid shadow-sm">
+        <div class="row d-flex align-items-center">
+            <div class="col-4">
+                <a href="index.html">
+                    <img src="img/logo2.png" alt="seta" style="width: 15rem; margin-left: 10px;">
+                </a>
+            </div>
+            <div class="col-8 d-flex justify-content-end">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler nav-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#menu" aia-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Clientes</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="cadastro.html">Seus Dados</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="fale_conosco2.html">Fale conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="trabalhe_conosco.html">Trabalhe conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="quem_somos.html">Quem somos</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header><!--Fim Topo-->
+    
+    <!-- Formulário: Fale Conosco -->
+    <main class="main">
+          
+        <!--
+        <div class="fale-conosco">
+            <h1> Fale Conosco  </h1>
+        </div>
+        -->
+
+        <section>
+            <dir class="fale-conosco">
+                <h2 style="text-align: center;  padding: 20px 0">Fale Conosco</h2>
+            </dir>
+            <div class="row">
+
+                <form action="">
+                    <div class="row">
+                        <div style="margin-left: 5px">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome completo">
+                        </div>
+                        <div style="margin-left: 5px">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" autocomplete="off">
+                        </div>
+                    
+                    </div>
+
+                    <label for="mensagem">Digite sua mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="6"></textarea>
+
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+    
+                    
+                   
+
+            </div>
+
+        </section>
+                    
+    </main>
+
+    
+
+    <!-- Rodapé -->
+    
+    <section>
+        <footer class="footer">
+            <img src="logo-branco.png" alt="">
+            <p class="copyright">&copy; Copyright DeCora - 2023</p>
+        </footer>
+        
+    </section>
+    <!-- fim do rodapé -->
+</body>
+</html>

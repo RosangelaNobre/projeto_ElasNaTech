@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeCORA</title>
+
+    <link rel="ico" type="image/x-icon" href="img/logo1.ico">
+
+    <!--Utilizei bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="js/popper.min.js">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Criando o topo do site onde tem o log e os botões de navegação -->
+
+    <header class="topo container-fluid shadow-sm">
+        <div class="row d-flex align-items-center">
+            <div class="col-4">
+                <a href="index.html">
+                    <img src="img/logo2.png" alt="seta" style="width: 15rem; margin-left: 10px;">
+                </a>
+            </div>
+            <div class="col-8 d-flex justify-content-end">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler nav-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#menu" aia-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Clientes</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="cadastro.html">Seus Dados</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="fale_conosco2.html">Fale conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="trabalhe_conosco.html">Trabalhe conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="quem_somos.html">Quem somos</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- fim do heard -->
+
+    <!--Banner do topo (carroucel)-->
+
+    <section class="banner-topo align-self-center" max-width: 500px>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="img/img6.jpg" class="d-block w-100 img-tamanho" alt="sala de estar">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/img7.jpg" class="d-block w-100 img-tamanho" alt="quarto">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/img8.jpg" class="d-block w-100 img-tamanho" alt="cozinha">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <!-- Final carrouçel -->
+
+    <!-- COMEÇA Seção do "SOBRE NÓS" -->
+
+    <section class="banner-topo">
+        <div class="container mt-1 nowrap d-flex">
+            <div class="row justify-content-between">
+
+                <!-- sei alguns comando betwween para as colunas -->
+
+                <div class="d-flex justity-content-arround">
+
+                    <div class="row">
+                        <div class="col-8 align-self-center">
+                            <h1>SOBRE NÓS</h1>
+                            <p class="sobre">Olá, somos Marcelo e Rosângela da DeCORA e há 5 anos nós decidimos unir
+                                nossas ideias para realizar sonhos e planos, através dos projetos. Cada cliente é único,
+                                cada família é única, cada escritório é único, cada projeto é único. Nosso propósito é
+                                entender os anseios, necessidades e sonhos dos nossos clientes e colocar cada pontuação
+                                dessas demandas no papel para torná-los realidade. Levamos em conta os recursos
+                                financeiros, a qualidade dos materiais e a mão de obra disponível para executar cada
+                                ideia.</p>
+                            <p class="sobre">Especialistas em iluminação e design de interiores desejamos que cada passo
+                                do processo você esteja satisfeito e feliz com a estética e a funcionalidade do projeto.
+                                Contamos com a experiência de 5 anos trabalhando em conjunto e mais de 100 clientes
+                                durante esta caminhada. Conte conosco.</p>
+                        </div>
+
+                        <div class="col-2">
+                            <img src="img/img2.jpg" class="img-destaque d-block mx-auto mt-2" alt="imagem de sala">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim sobre nós -->
+
+    <!-- COMEÇA cartão de grade -->
+
+    <div class="cart">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="img/cartao1.jpg" class="card-img-top" alt="sala de apartamento">
+                    <div class="card-body">
+                        <h5 class="card-title">Design de interiores</h5>
+                        <p class="card-text">Elaboramos o planejamento dos espaços internos das edificações, observando
+                            gostos, estilos, espaços e orçamentos para que se atinja um design personalizado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/cartao2.jpg" class="card-img-top" alt="cozinha projetada">
+                    <div class="card-body">
+                        <h5 class="card-title">Móveis projetados</h5>
+                        <p class="card-text">Projetamos e executamos móveis projetados respeitando a ergonomia e
+                            buscando melhorar o bem estar e saúde, burcando reduzir fatores que influem no desempenho do
+                            sistema produtivo e as sua consequências nocivas sobre o homem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/cartao3.jpg" class="card-img-top" alt="luminarias">
+                    <div class="card-body">
+                        <h5 class="card-title">Projetos Luminotécnicos</h5>
+                        <p class="card-text">Criamos projetos Luminotécnicos, buscando a eficiência energética e
+                            lumínica, de forma a obter conforto ambiental, utilizando tanto em projetos residenciais
+                            quanto comerciais e inst.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/cartao4.jpg" class="card-img-top" alt="jardinagem">
+                    <div class="card-body">
+                        <h5 class="card-title">Paisagismo e jardinagem</h5>
+                        <p class="card-text">O paisagismo e a jardinagem são duas práticas que se complementam e têm
+                            grande importância para o homem, pois, contribui para o bem estar físico e mental,
+                            caracterizado pela harmonia da uma paisagem equilibrada, audável e bela. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fim de "Cartão de grade" -->
+
+
+    <!-- COMEÇA "Fale conosco sobre o projeto" -->
+    <section classe="conversar">
+        <div class="elementor-widget-container">
+            <p class="titulo-principal" style="margin:auto">
+                "VAMOS CONVERSAR SOBRE O SEU PROJETO?"
+
+            </p>
+            <div class="row d-flex align-items-center">
+
+                <div class="p1">
+                    <p style="text-align: center">Trabalharemos juntos no conceito e criação do seu projeto.</p>
+                </div>
+                <div class="p2">
+                    <p style="text-align: center">Entre em contato conosco, hoje, para conversarmos sobre as suas
+                        necessidades e desejos específicos.
+                    </p>
+                </div>
+
+            </div>
+
+            <!--
+            <address>
+                <p>
+                    <a href="#">Whatsapp</a>
+                    <a href="#">Instagran</a>
+                    
+                </p>
+            </address>
+            -->
+        </div>
+
+    </section>
+    <!-- Fim do fale conosco -->
+
+    <!--COMEÇA "Localização mapa"-->
+    <div class="map">
+        <section id="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1927594004255!2d-38.58062832591623!3d-3.7681919433739983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c05eb884185%3A0x37cb5d51ed8be562!2sAv.%20Lineu%20Machado%20-%20J%C3%B3quei%20Clube%2C%20Fortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1696298775534!5m2!1spt-BR!2sbr"
+                width="1300" height="350" style="border:0; padding: 1rem" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+    <!-- Fim MAPA -->
+
+
+    <!--COMEÇA "FOOTER"-->
+    <footer class="footer">
+        <img src="logo-branco.png" alt="">
+        <p class="copyright">&copy; Copyright DeCora - 2023</p>
+    </footer>
+    <!--FIM "FOOTER"-->
+
+
+</body>
+
+</html>
